@@ -1,0 +1,12 @@
+name = "dylaarchery"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# Custom domain 
+routes = [
+   { pattern = "dyla.net/*", zone_name = "dyla.net" }
+ ]
+
+[[kv_namespaces]]
+binding = "SUBSCRIBERS_KV"
+id = "145316a2dbdd4649bcd228c662ea75d4"
