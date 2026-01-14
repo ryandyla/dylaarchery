@@ -10,3 +10,8 @@ routes = [
 [[kv_namespaces]]
 binding = "SUBSCRIBERS_KV"
 id = "145316a2dbdd4649bcd228c662ea75d4"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "dylaarchery"
+database_id = "56fe49d2-c37b-43b1-bbcc-ac63ebccf7b8"
